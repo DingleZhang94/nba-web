@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import {Slider,InputNumber, Row, Col} from 'antd';
 export default class CountSlider extends Component {
     state = {
