@@ -14,7 +14,7 @@ module.exports=[
   },
   {
     "firstName": "Steven",
-    "lastName": "Adams",
+    "lastName": "Adams",  
     "playerId": 203500,
     "teamId": 1610612760
   },
@@ -8675,11 +8675,11 @@ function plural(ms, n, name) {
 },{}],41:[function(require,module,exports){
 module.exports={
   "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36",
-  "referrer": "http://stats.nba.com/scores/",
+  "referrer": "https://stats.nba.com/scores/",
   "stats_endpoints": [
     {
       "name": "player_profile",
-      "url": "http://stats.nba.com/stats/playerprofilev2",
+      "url": "https://stats.nba.com/stats/playerprofilev2",
       "parameters": [
         "LeagueID",
         "PerMode",
@@ -8688,7 +8688,7 @@ module.exports={
     },
     {
       "name": "player_info",
-      "url": "http://stats.nba.com/stats/commonplayerinfo",
+      "url": "https://stats.nba.com/stats/commonplayerinfo",
       "parameters": [
         "PlayerID",
         "SeasonType",
@@ -8697,7 +8697,7 @@ module.exports={
     },
     {
       "name": "players_info",
-      "url": "http://stats.nba.com/stats/commonallplayers",
+      "url": "https://stats.nba.com/stats/commonallplayers",
       "parameters": [
         "LeagueID",
         "Season",
@@ -8706,7 +8706,7 @@ module.exports={
     },
     {
       "name": "team_stats",
-      "url": "http://stats.nba.com/stats/leaguedashteamstats",
+      "url": "https://stats.nba.com/stats/leaguedashteamstats",
       "parameters": [
         "Season",
         "AllStarSeason",
@@ -8737,7 +8737,7 @@ module.exports={
     },
     {
       "name": "team_splits",
-      "url": "http://stats.nba.com/stats/teamdashboardbygeneralsplits",
+      "url": "https://stats.nba.com/stats/teamdashboardbygeneralsplits",
       "parameters": [
         "Season",
         "SeasonType",
@@ -8765,14 +8765,14 @@ module.exports={
     },
     {
       "name": "team_years",
-      "url": "http://stats.nba.com/stats/commonteamyears",
+      "url": "https://stats.nba.com/stats/commonteamyears",
       "parameters": [
         "LeagueID"
       ]
     },
     {
       "name": "player_splits",
-      "url": "http://stats.nba.com/stats/playerdashboardbygeneralsplits",
+      "url": "https://stats.nba.com/stats/playerdashboardbygeneralsplits",
       "parameters": [
         "Season",
         "SeasonType",
@@ -8799,7 +8799,7 @@ module.exports={
     },
     {
       "name": "shots",
-      "url": "http://stats.nba.com/stats/shotchartdetail",
+      "url": "https://stats.nba.com/stats/shotchartdetail",
       "parameters": [
         "PlayerID",
         "Season",
@@ -8836,7 +8836,7 @@ module.exports={
     },
     {
       "name": "scoreboard",
-      "url": "http://stats.nba.com/stats/scoreboard",
+      "url": "https://stats.nba.com/stats/scoreboard",
       "parameters": [
         "LeagueID",
         "DayOffset",
@@ -8845,7 +8845,7 @@ module.exports={
     },
     {
       "name": "box_score_summary",
-      "url": "http://stats.nba.com/stats/boxscoresummaryv2",
+      "url": "https://stats.nba.com/stats/boxscoresummaryv2",
       "parameters": [
         "GameID",
         "Season",
@@ -8859,7 +8859,7 @@ module.exports={
     },
     {
       "name": "box_score",
-      "url": "http://stats.nba.com/stats/boxscoretraditionalv2",
+      "url": "https://stats.nba.com/stats/boxscoretraditionalv2",
       "parameters": [
         "GameID",
         "Season",
@@ -8873,7 +8873,7 @@ module.exports={
     },
     {
       "name": "play_by_play",
-      "url": "http://stats.nba.com/stats/playbyplay",
+      "url": "https://stats.nba.com/stats/playbyplay",
       "parameters": [
         "GameID",
         "StartPeriod",
@@ -8882,7 +8882,7 @@ module.exports={
     },
     {
       "name": "team_historical_leaders",
-      "url": "http://stats.nba.com/stats/teamhistoricalleaders",
+      "url": "https://stats.nba.com/stats/teamhistoricalleaders",
       "parameters": [
         "LeagueID",
         "Season",
@@ -8891,7 +8891,7 @@ module.exports={
     },
     {
       "name": "team_info_common",
-      "url": "http://stats.nba.com/stats/teaminfocommon",
+      "url": "https://stats.nba.com/stats/teaminfocommon",
       "parameters": [
         "LeagueID",
         "Season",
@@ -8901,7 +8901,7 @@ module.exports={
     },
     {
       "name": "common_team_roster",
-      "url": "http://stats.nba.com/stats/commonteamroster",
+      "url": "https://stats.nba.com/stats/commonteamroster",
       "parameters": [
         "LeagueID",
         "Season",
@@ -8910,7 +8910,7 @@ module.exports={
     },
     {
       "name": "team_player_dashboard",
-      "url": "http://stats.nba.com/stats/teamplayerdashboard",
+      "url": "https://stats.nba.com/stats/teamplayerdashboard",
       "parameters": [
         "MeasureType",
         "PerMode",
@@ -8936,7 +8936,7 @@ module.exports={
     },
     {
       "name": "lineups",
-      "url": "http://stats.nba.com/stats/leaguedashlineups",
+      "url": "https://stats.nba.com/stats/leaguedashlineups",
       "parameters": [
         "MeasureType",
         "PerMode",
@@ -8968,7 +8968,7 @@ module.exports={
     },
     {
       "name": "player_tracking",
-      "url": "http://stats.nba.com/stats/leaguedashptstats",
+      "url": "https://stats.nba.com/stats/leaguedashptstats",
       "parameters": [
         "PtMeasureType",
         "PerMode",
@@ -8993,7 +8993,7 @@ module.exports={
     },
     {
       "name": "homepage_v2",
-      "url": "http://stats.nba.com/stats/homepagev2",
+      "url": "https://stats.nba.com/stats/homepagev2",
       "parameters": [
         "GameScope",
         "LeagueID",
@@ -9006,7 +9006,7 @@ module.exports={
     },
     {
       "name": "assist_tracker",
-      "url": "http://stats.nba.com/stats/assisttracker",
+      "url": "https://stats.nba.com/stats/assisttracker",
       "parameters": [
         "LeagueID",
         "PerMode",
@@ -9016,7 +9016,7 @@ module.exports={
     },
     {
       "name": "player_stats",
-      "url": "http://stats.nba.com/stats/leaguedashplayerstats",
+      "url": "https://stats.nba.com/stats/leaguedashplayerstats",
       "parameters": [
         "College",
         "Conference",
@@ -9057,7 +9057,7 @@ module.exports={
     },
     {
       "name": "player_clutch",
-      "url": "http://stats.nba.com/stats/leaguedashplayerclutch",
+      "url": "https://stats.nba.com/stats/leaguedashplayerclutch",
       "parameters": [
         "AheadBehind",
         "ClutchTime",
@@ -9101,7 +9101,7 @@ module.exports={
     },
     {
       "name": "team_clutch",
-      "url": "http://stats.nba.com/stats/leaguedashteamclutch",
+      "url": "https://stats.nba.com/stats/leaguedashteamclutch",
       "parameters": [
         "AheadBehind",
         "ClutchTime",
@@ -9139,7 +9139,7 @@ module.exports={
     },
     {
       "name": "player_shooting",
-      "url": "http://stats.nba.com/stats/leaguedashplayerptshot",
+      "url": "https://stats.nba.com/stats/leaguedashplayerptshot",
       "parameters": [
         "CloseDefDistRange",
         "College",
@@ -9184,7 +9184,7 @@ module.exports={
     },
     {
       "name": "team_shooting",
-      "url": "http://stats.nba.com/stats/leaguedashteamptshot",
+      "url": "https://stats.nba.com/stats/leaguedashteamptshot",
       "parameters": [
         "CloseDefDistRange",
         "College",
@@ -9229,7 +9229,7 @@ module.exports={
     },
     {
       "name": "league_game_log",
-      "url": "http://stats.nba.com/stats/leaguegamelog",
+      "url": "https://stats.nba.com/stats/leaguegamelog",
       "parameters": [
         "Counter",
         "DateFrom",
@@ -9244,7 +9244,7 @@ module.exports={
     },
     {
       "name": "league_leaders",
-      "url": "http://stats.nba.com/stats/leagueLeaders",
+      "url": "https://stats.nba.com/stats/leagueLeaders",
       "parameters": [
         "LeagueID",
         "PerMode",
@@ -9256,7 +9256,7 @@ module.exports={
     },
     {
       "name": "league_standings",
-      "url": "http://stats.nba.com/stats/leaguestandings",
+      "url": "https://stats.nba.com/stats/leaguestandings",
       "parameters": [
         "LeagueID",
         "Season",
@@ -9265,7 +9265,7 @@ module.exports={
     },
     {
       "name": "player_hustle_leaders",
-      "url": "http://stats.nba.com/stats/leaguehustlestatsplayerleaders",
+      "url": "https://stats.nba.com/stats/leaguehustlestatsplayerleaders",
       "parameters": [
         "GameScope",
         "LeagueID",
@@ -9278,7 +9278,7 @@ module.exports={
     },
     {
       "name": "team_hustle_leaders",
-      "url": "http://stats.nba.com/stats/leaguehustlestatsteamleaders",
+      "url": "https://stats.nba.com/stats/leaguehustlestatsteamleaders",
       "parameters": [
         "GameScope",
         "LeagueID",
@@ -9291,7 +9291,7 @@ module.exports={
     },
     {
       "name": "player_hustle",
-      "url": "http://stats.nba.com/stats/leaguehustlestatsplayer",
+      "url": "https://stats.nba.com/stats/leaguehustlestatsplayer",
       "parameters": [
         "College",
         "Conference",
@@ -9331,7 +9331,7 @@ module.exports={
     },
     {
       "name": "team_hustle",
-      "url": "http://stats.nba.com/stats/leaguehustlestatsteam",
+      "url": "https://stats.nba.com/stats/leaguehustlestatsteam",
       "parameters": [
         "College",
         "Conference",
@@ -10503,7 +10503,7 @@ var HEADERS = {
   Referer: template.referrer,
   Connection: "keep-alive",
   "Cache-Control": "no-cache",
-  Origin: "http://stats.nba.com"
+  Origin: "https://stats.nba.com"
 };
 
 function createUrlString(_url, query) {
@@ -10639,39 +10639,39 @@ var defaults = { season: 2017 };
 
 module.exports = [{
   name: "speed",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/speedData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/speedData.json",
   defaults: defaults
 }, {
   name: "touches",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/touchesData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/touchesData.json",
   defaults: defaults
 }, {
   name: "passing",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/passingData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/passingData.json",
   defaults: defaults
 }, {
   name: "defense",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/defenseData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/defenseData.json",
   defaults: defaults
 }, {
   name: "rebounding",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/reboundingData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/reboundingData.json",
   defaults: defaults
 }, {
   name: "drives",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/drivesData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/drivesData.json",
   defaults: defaults
 }, {
   name: "shooting",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/shootingData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/shootingData.json",
   defaults: defaults
 }, {
   name: "catchShoot",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/catchShootData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/catchShootData.json",
   defaults: defaults
 }, {
   name: "pullUpShoot",
-  url: "http://stats.nba.com/js/data/sportvu/__season__/pullUpShootData.json",
+  url: "https://stats.nba.com/js/data/sportvu/__season__/pullUpShootData.json",
   defaults: defaults
 }];
 
