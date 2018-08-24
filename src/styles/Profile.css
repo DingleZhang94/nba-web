@@ -1,0 +1,43 @@
+#profile{
+    flex:1; 
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 10px #333;
+    padding: 5px;
+}
+
+ .profile-entry {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+ }
+ 
+ .profile-entry-left {
+    text-align: left;
+    font-weight: bold;
+ }
+ 
+ .profile-entry-right {
+    text-align: right;
+    flex: 1;
+ }
+ 
+.profile-pic {
+    width: 80%;
+    margin: auto;
+ }
+ 
+ .team-logo {
+    width: 40%;
+ }
+ 
+ .player-name {
+    background-color:  #1D428A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+ 
