@@ -1,4 +1,4 @@
-const http = require("http");
+const https = require("https");
 const qs = require("qs");
 
 const nba = require("..");
@@ -7,7 +7,7 @@ const statsHandler = createHandler("stats");
 const synergyHandler = createHandler("synergy");
 const sportVuHandler = createHandler("sportVu");
 
-const server = http.createServer(async (req, res) => {
+const server = https.createServer(async (req, res) => {
 
   let [ path, query ] = req.url.split("?");
   path = path.split("/").filter(Boolean);

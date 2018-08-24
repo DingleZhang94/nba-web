@@ -6,7 +6,7 @@ build-browser-test: build
 
 browser-test:
 	@make build-browser-test
-	node -e 'require("openurl").open("http://localhost:8080/test/browser")'
+	node -e 'require("openurl").open("https://localhost:8080/test/browser")'
 	./node_modules/.bin/static --cache 0
 
 test: build
