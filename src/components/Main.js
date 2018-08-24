@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import nba from 'nba';
+import nba from '../nba';
 import Profile from './Profile';
 import DataViewContainer from './DataViewContainer';
 
