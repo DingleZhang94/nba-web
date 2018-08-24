@@ -14,6 +14,7 @@ export default class Profile extends Component {
             playerId,
             pts, reb, ast, pie,
         } = this.props.playerInfo;
+        const formatHeight = height ? height.split('-'): height;
         return (
             <div id='profile'>
                 <div className='profile-entry player-name'>{`${playerName}`}</div>
@@ -33,15 +34,15 @@ export default class Profile extends Component {
                 </div>  
                 <div className="profile-entry">
                     <div className="profile-entry-left">Height</div>
-                    <div className="profile-entry-right">{`${height}`}</div>
+                    <div className="profile-entry-right">{formatHeight ? `${formatHeight[0]}' ${formatHeight[1]}"`: formatHeight}</div>
                 </div>
                 <div className="profile-entry">
                     <div className="profile-entry-left">Weight</div>
-                    <div className="profile-entry-right">{`${weight}`}</div>
+                    <div className="profile-entry-right">{`${weight} lbs`}</div>
                 </div>
                 <div className="profile-entry">
                     <div className="profile-entry-left">PTS</div>
-                    <div className="profile-entry-right">{`${pts}`}</div>
+                    <div className="profile-entry-right">{`${pts}`  }</div>
                 </div>
                 <div className="profile-entry">
                     <div className="profile-entry-left">REB</div>
