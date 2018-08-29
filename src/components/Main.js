@@ -3,14 +3,14 @@ import nba from '../nba';
 import Profile from './Profile';
 import DataViewContainer from './DataViewContainer';
 import SearchBar from './SearchBar';
+import { DEFAULT_PLAYER_INFO } from '../constant';
 
 export default class Main extends Component {
     state = {
-        playerId: nba.findPlayer('Stephen Curry').playerId,
-        playerInfo: {},
+        playerInfo: DEFAULT_PLAYER_INFO,
     }
     componentDidMount() {
-        this.loadPlayerInfo('Stephen Curry');
+        this.loadPlayerInfo(this.state.playerInfo.playName);
     }
 
     loadPlayerInfo = (playerName) =>{
@@ -19,11 +19,9 @@ export default class Main extends Component {
             PlayerID: playerId
         }).then((res) => {
             const playerInfo = { ...res.commonPlayerInfo[0], ...res.playerHeadlineStats[0] };
-            console.log(playerInfo);
-            this.setState({
-                playerInfo,
-                playerId
-            });
+            this.setState(
+                {playerInfo: playerInfo}
+            );
         });
     }
 
@@ -33,7 +31,7 @@ export default class Main extends Component {
                 <SearchBar loadPlayerInfo={this.loadPlayerInfo}/>
                 <div className='player'>
                     <Profile playerInfo={this.state.playerInfo} />
-                    <DataViewContainer playerId={this.state.playerId} />
+                    <DataViewContainer playerId={this.state.playerInfo.playerId} />
                 </div>
             </div>
         )
