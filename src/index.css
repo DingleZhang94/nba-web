@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
 @import './styles/DataViewContainer.css';
 @import '~antd/dist/antd.css';
+@import './styles/SearchBar.css';
 
 body{
   margin: 0;

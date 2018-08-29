@@ -41,7 +41,7 @@ export default class DataViewContainer extends Component {
           displayToolTips={displayTooltip}
         />
         <div className="filter">
-          <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 500)} minCount={minCount} />
+          {chartType === "scatter" ? null: <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 500)} minCount={minCount} />}
 
           <RadioGroup onChange={this.onChartTypeChange} value={chartType}>
             <Radio value="hexbin">hexbin</Radio>
