@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AutoComplete, Input, Icon } from 'antd';
-import nba from '../nba';
+import nba from '../nba';   
 import {PROFILE_PIC_URL_PREFIX} from '../constant.js';
 
 
