@@ -13,8 +13,8 @@ export default class SearchBar extends Component {
         });
     }
 
-    onSelect = () => {
-
+    onSelect = (value) => {
+        this.props.loadPlayerInfo(value);
     }
 
     render() {
@@ -27,7 +27,9 @@ export default class SearchBar extends Component {
                 onSelect={this.onSelect}
                 onSearch={this.handleSearch}
                 placeholder="Search NBA player"
-            />
+            >
+            <Input suffix={<Icon type="search" className="certain-category-icon" />} />
+            </AutoComplete>
         );
     }
 }

@@ -10,14 +10,19 @@ export default class Main extends Component {
         playerInfo: {},
     }
     componentDidMount() {
-        console.log(this.state.playerId);
+        this.loadPlayerInfo('Stephen Curry');
+    }
+
+    loadPlayerInfo = (playerName) =>{
+        const playerId = nba.findPlayer(playerName).playerId;
         nba.stats.playerInfo({
-            PlayerID: this.state.playerId
+            PlayerID: playerId
         }).then((res) => {
             const playerInfo = { ...res.commonPlayerInfo[0], ...res.playerHeadlineStats[0] };
             console.log(playerInfo);
             this.setState({
-                playerInfo
+                playerInfo,
+                playerId
             });
         });
     }
@@ -25,7 +30,7 @@ export default class Main extends Component {
     render() {
         return (
             <div className='main'>
-                <SearchBar />
+                <SearchBar loadPlayerInfo={this.loadPlayerInfo}/>
                 <div className='player'>
                     <Profile playerInfo={this.state.playerInfo} />
                     <DataViewContainer playerId={this.state.playerId} />
