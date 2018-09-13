@@ -9,7 +9,7 @@ GitHub page: https://dinglezhang94.github.io/nba-web/
 
 # Adjust the shot frequency filter
 
-![](gif/adjust.gif)
+![](gif/Adjust.gif)
 
 # Swap between cluster mode to scatter mode
 
