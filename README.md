@@ -13,7 +13,7 @@ GitHub page: https://dinglezhang94.github.io/nba-web/
 
 # Swap between cluster mode to scatter mode
 
-![](gif/style change.gif)
+![](gif/style.gif)
 
 # Turn on and off the modal
 
